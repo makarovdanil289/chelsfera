@@ -35,6 +35,7 @@
                     display: inline-block;
                     @include FontBehaviorMenu;
                     padding: 10px;
+                    opacity: 0.7;
                     &:hover {
                         color: $white-color;
                         opacity: 1;
@@ -47,13 +48,13 @@
             display: flex;
             flex-flow: row nowrap;
             
-            .header__booking {
-                margin-left: 30px;  // если при адаптации будет мешаться изменить единицы измерения на %
-                padding: 10px; //аналогичная ситуация
+            .button {
+                margin-left: 350px;  // если при адаптации будет мешаться изменить единицы измерения на %
+                padding: 12px 35px 12px 35px; //аналогичная ситуация
                 border: 1px solid $white-color;
-              
+                opacity: 1;
                 font-size: 13px;
-                font-weight: 600;
+                font-weight: 400;
                 @include FontBehaviorMenu;
                 &:hover {
                     color: $white-color;

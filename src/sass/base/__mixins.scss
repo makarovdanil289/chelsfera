@@ -4,5 +4,19 @@
     text-transform: uppercase;
     font-family: $menu-font;
     transition: all 0.7s;
-    opacity: 0.7;
+    
+}
+
+@mixin buttons {
+    padding: 12px 35px 12px 35px; //аналогичная ситуация
+    border: 1px solid $white-color;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $menu-font;
+    transition: all 0.7s;
+    
 }
