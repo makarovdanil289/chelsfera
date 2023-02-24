@@ -1,0 +1,8 @@
+@mixin FontBehaviorMenu {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $menu-font;
+    transition: all 0.7s;
+    opacity: 0.7;
+}
