@@ -1,0 +1,56 @@
+.numbers  {
+    background-color: $backround_color;
+    padding: 0 200px 200px 200px;
+    min-height: 500px;
+
+    .numbers__header {
+        display: flex;
+        justify-content: space-between;
+
+        .numbers__title {
+            font-family: "Noto Serif Display";
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        .numbers__button {
+            margin-top: 40px;
+            .button {
+                height: 55px;    
+                @include buttons;
+                padding: 15px 35px 15px 35px;
+                background-color: black;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .numbers__imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        .number__img {
+            img {
+                height: 250px;
+            }
+
+            .number__cost {
+                font-family: "Noto Serif Display";
+                font-size: 1.50rem;
+                font-weight: 500;
+                margin-top: 30px;
+            }
+
+            .number__book {
+                margin-top: 30px;
+                .number__booking {
+                    font-family: "Open Sans";
+                    color:black;
+                    font-size: 19px;
+                    text-decoration: underline;
+                    
+                }
+            }
+        }
+    }
+}

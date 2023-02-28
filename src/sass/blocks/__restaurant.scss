@@ -1,0 +1,9 @@
+.restaurant {
+    background-color: $backround_color;
+    min-height: 500px;
+    padding: 0 200px 200px 200px;
+
+    h2 {
+        @include title;
+    }
+}
