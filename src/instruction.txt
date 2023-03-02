@@ -1,0 +1,6 @@
+npm i для установки всех пакетов локально
+
+git add -A
+git pull
+git push
+git commit -a -m"message"
