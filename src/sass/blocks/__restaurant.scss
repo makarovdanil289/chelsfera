@@ -1,9 +1,30 @@
 .restaurant {
     background-color: $backround_color;
     min-height: 500px;
-    padding: 0 200px 200px 200px;
+    padding: 0 100px 0 150px;
 
-    h2 {
-        @include title;
+    .container {
+        .restaurant__items {
+            display: flex;
+            justify-content: space-between;
+            .restaurant__item {
+                
+            }
+            .restaurant__item-1 {
+                img {
+                    height: 380px;
+                }
+            }
+            .restaurant__item-2 {
+                h2 {
+                    @include title;
+                }
+                img {
+                    height: 350px;
+                }
+            }
+        }
+        
     }
+
 }
