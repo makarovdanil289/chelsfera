@@ -2,6 +2,9 @@
     .numbers {
         padding: 0 100px 200px 100px !important;
     }
+    .restaurant {
+        padding: 0 50px 0 100px !important;
+    }
 }
 
 @media (max-width: 1350px) {
@@ -53,6 +56,27 @@
             .number__img {
                 img {
                     height: 210px;
+                }
+            }
+        }
+    }
+
+    .restaurant {
+        padding: 0 0 0 0 !important;
+        text-align: center;
+        .container {
+            .restaurant__items {
+                flex-direction: column-reverse;
+                align-items:    center;
+                .restaurant__item {
+                    .restaurant__descr {
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                    }
+                    img {
+                        height: 275px !important;
+                        margin-bottom: 20px;
+                    }
                 }
             }
         }
