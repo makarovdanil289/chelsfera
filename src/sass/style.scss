@@ -1,6 +1,7 @@
 @import 'base/_variables';
 @import 'base/_mixins';
 @import '_bootstrap-reboot.min.scss';
+@import 'base/_animation';
 
 
 
@@ -16,3 +17,4 @@
 @import 'blocks/_numbers';
 @import 'blocks/_restaurant';
 @import 'blocks/_carousel';
+@import 'blocks/_service';
