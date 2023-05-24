@@ -1,0 +1,97 @@
+.promo_contacts {
+    min-height: 200px;
+
+    .promo__wrapper-contacts {
+        margin-top: 150px;
+        margin-bottom: 75px;
+    }
+}
+
+.contacts {
+    padding: 0 200px 120px 200px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    .container {
+        max-width: 1300px;
+        .contacts__all {
+            display: flex;
+            justify-content: space-between;
+            
+
+            .contacts__info {
+                width: 50%;
+
+                .contacts__hotel {
+                    .contacts__title {
+                        @include contacts__title;
+                    }
+                    .contacts__subtitle {
+                        @include contacts__subtitle;
+                        margin-bottom: 15px;
+                    }
+                }
+    
+                .contacts__path {
+                    margin-top: 50px;
+                    .contacts__title {
+                        @include contacts__title;
+                    }
+                    .contacts__subtitle {
+                        @include contacts__subtitle;
+                        margin-bottom: 20px;
+                    }
+                }
+    
+                .contacts__contact {
+                    margin-top: 50px;
+                    .contacts__title {
+                        @include contacts__title;
+                    }
+                    .contacts__contact-tel {
+                        @include contacts__title;
+                        margin-bottom: 10px;
+                    }
+                    .contacts__contact-faks {
+                        @include contacts__title;
+                        margin-bottom: 10px;
+                    }
+                    .contacts__contact-email {
+                        @include contacts__title;
+                    }
+                }
+            }
+            
+            .contacts__form {
+                .feed-form {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        display: flex;
+                        flex-direction: column;
+                        @include form__label;
+                        width: 600px;
+                        input {
+                            border: 1px solid #dddddd;
+                            //border-color: #dddddd;
+                            padding: 0.75em;
+                            margin-bottom: 15px;
+                        }
+                        textarea {
+                            margin-bottom: 15px;
+                            border: 1px solid #dddddd;
+                            height: 124px;
+                        }
+                        
+                    }
+                    button {
+                        
+                        @include buttons;
+                        background-color: black;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

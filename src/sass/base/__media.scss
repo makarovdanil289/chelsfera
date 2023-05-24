@@ -5,6 +5,20 @@
     .restaurant {
         padding: 0 50px 0 100px !important;
     }
+
+    .contacts {
+        .container {
+            .contacts__all {
+                .contacts__form {
+                    .feed-form {
+                        label {
+                            width: 500px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1350px) {
@@ -87,6 +101,73 @@
     footer {
         padding: 100px 100px 120px 100px !important;
     }
+
+    .contacts {
+        .container {
+            .contacts__all {
+
+                .contacts__info {
+                    width: 50%;
+    
+                    .contacts__hotel {
+                        .contacts__title {
+                            @include contacts__title;
+                            font-size: 23px !important;
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 15px;
+                            font-size: 1.2rem !important;
+                        }
+                    }
+        
+                    .contacts__path {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            font-size: 23px !important;
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 20px;
+                            font-size: 1.2rem !important;
+                        }
+                    }
+        
+                    .contacts__contact {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            font-size: 23px !important;
+                        }
+                        .contacts__contact-tel {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            font-size: 23px !important;
+                        }
+                        .contacts__contact-faks {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            font-size: 23px !important;
+                        }
+                        .contacts__contact-email {
+                            @include contacts__title;
+                            font-size: 23px !important;
+                        }
+                    }
+                }
+
+
+                .contacts__form {
+                    .feed-form {
+                        label {
+                            width: 400px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1250px) {
@@ -167,6 +248,85 @@
             }
         }
     }
+
+
+    .contacts {
+        .container {
+            .contacts__all {
+
+                .contacts__info {
+                    width: 50%;
+    
+                    .contacts__hotel {
+                        .contacts__title {
+                            @include contacts__title;
+                            font-size: 17px !important;
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 15px;
+                            font-size: 1.2rem !important;
+                        }
+                    }
+        
+                    .contacts__path {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            font-size: 17px !important;;
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 20px;
+                            font-size: 1.2rem !important;
+                        }
+                    }
+        
+                    .contacts__contact {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            font-size: 17px !important;
+                        }
+                        .contacts__contact-tel {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            font-size: 17px !important;
+                        }
+                        .contacts__contact-faks {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            font-size: 17px !important;
+                        }
+                        .contacts__contact-email {
+                            @include contacts__title;
+                            font-size: 17px !important;
+                        }
+                    }
+                }
+
+
+                .contacts__form {
+                    .feed-form {
+                        label {
+                            width: 300px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .payment {
+        .container {
+            .payment__wrap {
+                .payment__subtitle {
+                    font-size: 1.5rem !important;
+                }
+            }
+        }
+    }
      
 }
 
@@ -218,6 +378,84 @@
     footer {
         padding: 100px 50px 120px 50px!important;
     }
+
+
+
+    .contacts {
+
+        padding: 0 20px 0 20px !important;
+        text-align: center;
+        .container {
+            .contacts__all {
+                display: flex;
+                flex-direction: column;
+
+                .contacts__info {
+                    width: 100% !important;
+                    margin-bottom: 20px;
+    
+                    .contacts__hotel {
+                        .contacts__title {
+                            @include contacts__title;
+                            
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 15px;
+                            
+                        }
+                    }
+        
+                    .contacts__path {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 20px;
+                            
+                        }
+                    }
+        
+                    .contacts__contact {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            
+                        }
+                        .contacts__contact-tel {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            
+                        }
+                        .contacts__contact-faks {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            
+                        }
+                        .contacts__contact-email {
+                            @include contacts__title;
+                            
+                        }
+                    }
+                }
+
+
+                .contacts__form {
+                    .feed-form {
+                        align-items: center;
+                        label {
+                            width: 600px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
 }
 
 @media (max-width: 900px) {
@@ -260,6 +498,18 @@
         padding: 100px 100px 120px 100px !important;
     }
 
+    .payment {
+        .container {
+            .payment__wrap {
+                .payment__title {
+                    font-size: 1.8rem !important;
+                }
+                .payment__subtitle {
+                    font-size: 1.3rem !important;
+                }
+            }
+        }
+    }
     
 
 }
@@ -453,6 +703,95 @@
             .service__title {
                 font-size: 30px !important;
                 text-align: center;
+            }
+        }
+    }
+
+
+    .contacts {
+
+        padding: 0 20px 0 20px !important;
+        text-align: center;
+        .container {
+            .contacts__all {
+                display: flex;
+                flex-direction: column;
+
+                .contacts__info {
+                    width: 100% !important;
+                    margin-bottom: 20px;
+    
+                    .contacts__hotel {
+                        .contacts__title {
+                            @include contacts__title;
+                            
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 15px;
+                            
+                        }
+                    }
+        
+                    .contacts__path {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            
+                        }
+                        .contacts__subtitle {
+                            @include contacts__subtitle;
+                            margin-bottom: 20px;
+                            
+                        }
+                    }
+        
+                    .contacts__contact {
+                        margin-top: 50px;
+                        .contacts__title {
+                            @include contacts__title;
+                            
+                        }
+                        .contacts__contact-tel {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            
+                        }
+                        .contacts__contact-faks {
+                            @include contacts__title;
+                            margin-bottom: 10px;
+                            
+                        }
+                        .contacts__contact-email {
+                            @include contacts__title;
+                            
+                        }
+                    }
+                }
+
+
+                .contacts__form {
+                    .feed-form {
+                        align-items: center;
+                        label {
+                            width: 400px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .payment {
+        .container {
+            .payment__wrap {
+                .payment__title {
+                    font-size: 1.5rem !important;
+                }
+                .payment__subtitle {
+                    font-size: 1.2rem !important;
+                    text-align: center;
+                }
             }
         }
     }

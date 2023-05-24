@@ -45,3 +45,22 @@
     color: #545454;
     font-weight: 400;
 }
+
+@mixin contacts__title {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Noto Serif Display', sans-serif;
+    font-style: normal;
+}
+
+@mixin contacts__subtitle {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    //line-height: 10px;
+}
+
+@mixin form__label {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+}
