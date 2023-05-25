@@ -670,6 +670,28 @@
     }
 }
 
+@media (max-width: 690px) {
+    .sales {
+        .sales__main {
+            display: flex;
+            flex-direction: column;
+            .sale__img {
+                display: flex;
+                justify-content: center;
+            }
+            .sales__text {
+                .sales__title {
+                    text-align: center;
+                }
+                .sales__desc {
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}
+
 
 @media (max-width: 550px) {
     .promo {
