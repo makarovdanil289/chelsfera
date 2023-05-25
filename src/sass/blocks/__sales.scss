@@ -1,0 +1,30 @@
+.sales {
+    padding: 100px 50px 0 50px;
+    margin-bottom: 100px;
+
+    .sales__main {
+        display: flex;
+
+        .sales__text {
+            .sales__title {
+                font-family: 'Noto Serif Display';
+                font-size: 1.75rem;
+            }
+            .sales__desc {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 400;
+                
+            }
+        }
+        
+    }
+    .sales__info {
+        margin-top: 25px;
+        .sales__info_list {
+            .sales__info_item {
+                font-family: 'Open Sans';
+            }
+        }
+    }
+}
