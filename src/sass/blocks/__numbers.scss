@@ -1,54 +1,94 @@
-.numbers  {
-    background-color: $backround_color;
-    padding: 0 200px 200px 200px;
-    min-height: 500px;
+.numbers {
+    min-height: 600px;
+    padding: 100px 200px 200px 200px;
 
-    .numbers__header {
-        display: flex;
-        justify-content: space-between;
-
+    .container {
         .numbers__title {
             font-family: "Noto Serif Display";
-            font-size: 50px;
+            font-size: 40px;
             font-weight: 500;
         }
-
-        .numbers__button {
-            margin-top: 40px;
-            .button {
-                height: 55px;    
-                @include buttons;
-                padding: 15px 35px 15px 35px;
+        .numbers__subtitle {
+            width: 50%;
+            font-family: "Open Sans";
+        }
+        .catalog_tabs {
+            margin-top: 70px;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0;
+            padding-left: 0;
+        }
+        .catalog__tab {
+            width: 220px;
+            height: 50px;
+            border:2px solid #d0d0d0;
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 48px;
+            transform: skew(-25deg);
+            margin: 0 5px;
+            cursor: pointer;
+            transition: 0.5s all;
+            &:hover {
+                box-shadow: 3px 3px 20px black;
+                border: none;
+            }
+            div {
+                transform: skew(25deg);
+            }
+            &_active {
+                color: #fff;
                 background-color: black;
-                margin-top: 15px;
+                border: none;
             }
         }
-    }
-
-    .numbers__imgs {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-        .number__img {
-            img {
-                height: 250px;
+        .catalog__content {
+            margin-top: 60px;
+            display: none;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &_active {
+                display: flex;
             }
-
-            .number__cost {
-                font-family: "Noto Serif Display";
-                font-size: 1.50rem;
-                font-weight: 500;
-                margin-top: 30px;
-            }
-
-            .number__book {
-                margin-top: 30px;
-                .number__booking {
+            .catalog-item {
+                margin-bottom: 20px;
+                .catalog-item__img {
+                    width: 558px;
+                }
+                .catalog-item__subtitle {
+                    font-family: "Noto Serif Display";
+                    font-size: 28px;
+                    font-weight: 600;
+                    margin-top: 15px;
+                }
+                .catalog-item__descr {
                     font-family: "Open Sans";
-                    color:black;
-                    font-size: 19px;
-                    text-decoration: underline;
-                    
+                    font-weight: 400;
+                    font-size: 16px;
+                    width: 558px;
+                    line-height: 24px;
+                    text-align: left;
+                    margin-top: 10px;
+                }
+                .catalog-item__cost {
+                    font-family: "Noto Serif Display";
+                    font-size: 28px;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+                .catalog-item__link {
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    color: black;
+                    text-decoration:underline;
+                    text-transform: uppercase;
+                    font-weight: 700;
                 }
             }
         }
